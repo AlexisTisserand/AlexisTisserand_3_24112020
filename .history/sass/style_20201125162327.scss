@@ -1,0 +1,36 @@
+@import "libs/fonts.scss";
+
+$primary: #9356DC;
+$secondary: #FF79DA;
+$tertiary: #99E2D0;
+
+body{
+    background-color: white;
+    font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+#bloc-page{
+    width: 100%;
+    margin: auto;
+    max-width: 2000px;
+    min-width: 100px;    
+}
+
+header{
+    text-align: center;
+    .logo{
+        margin-top: 2em;
+    }
+}
+
+.search-bar{
+    display: flex;
+    background-color: #EAEAEA;
+    height: 3em;
+    margin-top: 1em;
+    .bar-button{
+        text-align: center;
+    }
+}
+

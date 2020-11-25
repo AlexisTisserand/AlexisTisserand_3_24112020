@@ -1,0 +1,51 @@
+@import "libs/fonts.scss";
+
+$primary: #9356DC;
+$secondary: #FF79DA;
+$tertiary: #99E2D0;
+$color-text: #353535
+
+$font-family: 'robotoregular';
+$size: 1rem;
+
+body{
+    background-color: white;
+    font-family: 'robotoregular', Arial, Helvetica, sans-serif;
+    margin: auto;
+}
+
+#bloc-page{
+    width: 100%;
+    margin: auto;
+    max-width: 2000px;
+    min-width: 100px;    
+}
+
+header{
+    text-align: center;
+    .logo{
+        margin-top: $size + 1rem;
+    }
+}
+
+.search-bar{
+    display: flex;
+    background-color: #EAEAEA;
+    height: $size + 2rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    .search-bar-button{
+       color: $color-text;
+    }
+    .search-bar-text-input{
+        outline: none;
+        background-color: #EAEAEA;
+        border: none;
+        color: $color-text;
+        font-size: $size + 1rem;
+        font-weight: bold;
+        text-align: center;
+        width: 45%;
+    }
+}
