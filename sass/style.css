@@ -1,0 +1,16 @@
+#bloc-page {
+  background-color: #AE54DF;
+}
+
+#descritpion-ohmyfood {
+  border: black 6px solid;
+}
+
+.btn, .call-to-action {
+  background-color: #AE54DF;
+}
+
+.btn:hover, .call-to-action:hover {
+  background-color: #a77878;
+}
+/*# sourceMappingURL=style.css.map */

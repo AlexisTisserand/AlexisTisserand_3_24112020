@@ -7,8 +7,8 @@
     <meta name="descritpion" content="Site internet ohmyfood, composez votre menu et réservez dans les meilleurs restaurants de Paris.">
     <meta name="author" content="Alexis Tisserand">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link rel="stylesheet" href="ohmyfood.css"/>
-    <title>ohmyfood</title>
+    <link rel="stylesheet" href="style.css"/>
+    <title>ohmyfood - Accueil</title>
 </head>
 
 <!--bloc_page-->
@@ -22,30 +22,30 @@
    
     <img class="logo" src="images/logo/ohmyfood@2x.svg" alt="Logo ohmyfood"/>
     <div id="search-bar">
-        <div class="button-first"><i class="fas fa-map-marker-alt"></i></div>
-        <input type="search" class="text-input" placeholder="Saisissez votre ville" value="Paris, Belleville">
+        <div class="button"><i class="fas fa-map-marker-alt"></i></div>
+        <input type="search" class="search-bar-text-input" placeholder="Saisissez votre ville" value="Paris, Belleville">
     </div>
 </header>
 
 <section id="descritpion-ohmyfood">
     <h2>Réservez le menu qui vous convient</h2>
-    <h3>Découvrez des restaurants d'exception; sélectionnés par nos soins.</h3>
+    <h3>Découvrez des restaurants d'exception, sélectionnés par nos soins.</h3>
     <h4>Explorer nos restaurants</h4>
 </section>
 
-<section id="fonctionnement-ohmyfood">
+<section id="fonctionnement">
     <h2>Fonctionnement</h2>
     <nav>
-        <ol class="nav-fonctionnement">
-            <li class="choisir-restaurant">
+        <ol class="fonctionnement-nav">
+            <li class="fonctionnement-nav-etape ">
                 <i class="fas fa-mobile-alt"></i>
                 <h3> Choisissez un restaurant</h3>
             </li>  
-            <li class="composer-menu">
+            <li class="fonctionnement-nav-etape ">
                 <i class="fas fa-list-ul"></i>
                 <h3>Composez votre menu</h3>
             </li>
-            <li class="deguster-restaurant">
+            <li class="fonctionnement-nav-etape fonctionnement-nav-etape--purple">
                 <i class="fas fa-store"></i>
                 <h3>Dégustez au restaurant</h3>
             </li>
@@ -58,53 +58,53 @@
     <div class="container-restaurants">
         <h3>Restaurants</h3>
 
-        <a href="" class="card-restaurant">
-            <img class="card-img-restaurant" src="images/restaurants/la_palette_du_gout.jpg" alt="La Palette du Goût"/>
-            <div class="text-img">
+        <a href="menu-la-palette-du-gout.html" class="card-restaurant">
+            <img class="card-restaurant-img" src="images/restaurants/la_palette_du_gout.jpg" alt="La Palette du Goût"/>
+            <div class="card-restaurant-nouveau">
                 <h5>Nouveau</h5>
             </div>
-            <div class="card-text-restaurant">
+            <div class="card-restaurant-text">
                 <h4>La palette du goût</h4>
                 <h5>Ménilmontant</h5>
                 <i class="far fa-heart"></i>
             </div> 
-        </div>
+        </a>
 
-        <div class="card-restaurant">
-            <img class="card-img-restaurant" src="images/restaurants/la_note_enchantee.jpg" alt="La Note Enchantée"/>
-            <div class="text-img">
+        <a href="menu-la-note-enchantee.html" class="card-restaurant">
+            <img class="card-restaurant-img" src="images/restaurants/la_note_enchantee.jpg" alt="La Note Enchantée"/>
+            <div class="card-restaurant-nouveau">
                 <h5>Nouveau</h5>
             </div>
-            <div class="card-text-restaurant">
+            <div class="card-restaurant-text">
                 <h4>La note enchantée</h4>
                 <h5>Charonne</h5>
                 <i class="far fa-heart"></i>
             </div> 
-        </div>
+        </a>
 
-        <div class="card-restaurant">
-            <img class="card-img-restaurant" src="images/restaurants/a_la_française.jpg" alt="À La Française"/>
-            <div class="text-img">
+        <a href="menu-a-la-francaise.html" class="card-restaurant">
+            <img class="card-restaurant-img" src="images/restaurants/a_la_française.jpg" alt="À La Française"/>
+            <div class="card-restaurant-nouveau">
                 <h5>Nouveau</h5>
             </div>
-            <div class="card-text-restaurant">
+            <div class="card-restaurant-text">
                 <h4>À la française</h4>
                 <h5>Cité Rouge</h5>
                 <i class="far fa-heart"></i>
             </div> 
-        </div>
+        </a>
 
-        <div class="card-restaurant">
-            <img class="card-img-restaurant" src="images/restaurants/le_delice_des_sens.jpg" alt="Le Délice Des Sens"/>
-            <div class="text-img">
+        <a href="menu-le-delice-des-sens.html" class="card-restaurant">
+            <img class="card-restaurant-img" src="images/restaurants/le_delice_des_sens.jpg" alt="Le Délice Des Sens"/>
+            <div class="card-restaurant-nouveau">
                 <h5>Nouveau</h5>
             </div>
-            <div class="card-text-restaurant">
+            <div class="card-restaurant-text">
                 <h4>Le délice des sens</h4>
                 <h5>Folie-Méricourt</h5>
                 <i class="far fa-heart"></i>
             </div> 
-        </div>
+        </a>
     </div>
 </section>
 

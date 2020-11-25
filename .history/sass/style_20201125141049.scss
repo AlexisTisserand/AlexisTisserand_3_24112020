@@ -1,0 +1,23 @@
+$color-primary: #FFF;
+
+
+#bloc-page
+{
+    background-color: $color-primary;
+}
+
+#descritpion-ohmyfood
+{
+    border: black 6px solid;
+}
+
+.btn{
+    background-color: red;
+    &:hover{
+        background-color: rgb(167, 120, 120);
+    }
+}
+
+.call-to-action{
+    @extend .btn;
+}
