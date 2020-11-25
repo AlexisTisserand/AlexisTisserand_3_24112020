@@ -13,6 +13,7 @@
   font-style: italic;
   font-display: swap;
 }
+<<<<<<< HEAD
 @font-face {
   font-family: "robotoblack_italic";
   src: url("Roboto-BlackItalic-webfont.eot");
@@ -126,5 +127,11 @@ header .logo img {
 }
 
 /*FONCTIONNEMENT*/
+=======
+body {
+  background-color: white;
+  font-family: "robotoregular", Arial, Helvetica, sans-serif;
+}
+>>>>>>> 22b8dfe4b0ebb6c3fe52753113de3b4f8ff9c9e5
 
 /*# sourceMappingURL=style.css.map */
