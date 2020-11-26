@@ -1,0 +1,127 @@
+@import "libs/fonts.scss";
+
+/*COULEURS VARIABLES*/
+$primary: #9356DC;
+$secondary: #FF79DA;
+$tertiary: #99E2D0;
+$color-text: #353535;
+$color-background: #f6f6f6;
+
+/*VARIABLES TAILLE ET FONT FAMILY*/
+$font-family: 'roboto', 'Raleway', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+$size: 1rem;
+
+body{
+    background-color: white;
+    font-family: $font-family;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+#bloc-page{
+    width: 100%;
+    margin: auto;
+    max-width: 2000px;
+    min-width: 100px;    
+}
+
+                                        /*HEADER*/
+
+header{
+    text-align: center;
+    .logo{
+        margin-top: $size + 1rem;
+        img{
+            width: $size + 10rem;
+        }
+    }
+}
+
+.search-bar{
+    display: flex;
+    background-color: #EAEAEA;
+    box-shadow: 0px -2px 5px 0px #CFCFCF;
+    height: $size + 2rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    .fas{
+        font-size: $size;
+        margin-bottom: 1rem;   
+    }
+    .search-bar-button{
+       color: $color-text;
+       font-size: $size + 0.5rem;
+    }
+    .search-bar-text-input{
+        outline: none;
+        padding: 0;
+        background-color: #EAEAEA;
+        border: none;
+        color: $color-text;
+        font-size: $size;
+        font-weight: bold;
+        text-align: center;
+        width: 180px;
+    }
+}
+
+                                        /*SECTION DESCRIPTION*/
+
+#description-ohmyfood{
+    display: flex;
+    flex-direction: column;
+    background-color: $color-background;
+    align-items: center;
+    text-align: center;
+    h2{
+        font-size: $size + 0.7rem ;
+        padding: $size;
+        margin-bottom: 0;
+        margin-top: $size + 0.5rem;
+    }
+    h3{
+        font-size: $size + 0.2rem ;
+        font-weight: 300;
+        margin-top: 0;
+        padding: $size - 0.5rem, $size + 1rem ;
+    }
+    h4{
+        font-size: $size + 0.1rem;
+        margin-top: $size;
+        font-weight: normal;
+        color: white;
+        background-color: $primary;
+        position: relative;	
+        box-shadow: inset 10px 15px 50px 1px $secondary, 0px 0px 10px 1px #b6b3b3;
+        border-radius: 40px;
+        padding: 15px 20px;
+        margin-bottom: $size + 2.5rem;
+        &:hover{
+            opacity: 0.7;
+            -moz-opacity: 0.5;
+            -khtml-opacity: 0.5;
+            box-shadow: inset 10px 15px 50px 1px $secondary, 0px 0px 7px 3px #484B4C;
+        }
+    }
+
+}
+
+                                        /*FONCTIONNEMENT*/
+
+#fonctionnement{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    h2{
+        margin: 2*$size $size $size;
+    }
+    .fonctionnement-nav{
+        display: flex;
+        
+    }
+
+}
