@@ -243,32 +243,6 @@ header .logo img {
 .card-restaurant-legende {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-.card-restaurant-legende-text {
-  display: flex;
-  flex-direction: column;
-  margin-left: 1rem;
-}
-.card-restaurant-legende-text h4 {
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  margin-bottom: 0;
-}
-.card-restaurant-legende-text h5 {
-  margin-top: 0.2rem;
-  margin-bottom: 1rem;
-  font-weight: 300;
-  font-size: 1.1rem;
-}
-.card-restaurant-legende-heart {
-  align-self: center;
-  font-size: xx-large;
-  margin-right: 2rem;
-  margin-top: -0.7rem;
-}
-.card-restaurant-legende-heart:hover {
-  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */

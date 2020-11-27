@@ -235,7 +235,6 @@ header{
     &-legende{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         &-text{
             display: flex;
             flex-direction: column;
@@ -249,17 +248,8 @@ header{
                 margin-top: 0.2 * $size;
                 margin-bottom: $size;
                 font-weight: 300;
-                font-size: $size + 0.1rem;
+                font-size: $size;
             }
-        }
-        &-heart{
-            align-self: center;
-            font-size: xx-large;
-            margin-right: 2 * $size;
-            margin-top: - 0.7 * $size;
-            &:hover{
-                background-color: red;
-            }               
         }
     }
 }

@@ -206,7 +206,8 @@ header{
 .card-restaurant{
     display: flex;
     position: relative;
-    z-index: 1;
+    text-align: center;
+    color: green;
     flex-direction: column;
     background-color: white;
     border-radius: 20px;
@@ -222,45 +223,11 @@ header{
     width: 100%;
     border-radius: 1rem 1rem 0 0;
     }
-    &-nouveau{
-        background-color: $tertiary;
-        color: #39a98e;
+    p{
+        background: red;
         position: absolute;
-        top: 8px;
-        right: 16px;
-        padding: 7px;
-        border-radius: 5px;
         z-index: 2;
-    }
-    &-legende{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        &-text{
-            display: flex;
-            flex-direction: column;
-            margin-left: $size;
-            h4{
-                font-size: $size + 0.2rem;
-                margin-top: $size;
-                margin-bottom: 0;
-            }
-            h5{
-                margin-top: 0.2 * $size;
-                margin-bottom: $size;
-                font-weight: 300;
-                font-size: $size + 0.1rem;
-            }
-        }
-        &-heart{
-            align-self: center;
-            font-size: xx-large;
-            margin-right: 2 * $size;
-            margin-top: - 0.7 * $size;
-            &:hover{
-                background-color: red;
-            }               
-        }
+
     }
 }
 

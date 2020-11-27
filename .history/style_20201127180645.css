@@ -213,7 +213,8 @@ header .logo img {
 .card-restaurant {
   display: flex;
   position: relative;
-  z-index: 1;
+  text-align: center;
+  color: green;
   flex-direction: column;
   background-color: white;
   border-radius: 20px;
@@ -231,44 +232,10 @@ header .logo img {
   border-radius: 1rem 1rem 0 0;
 }
 .card-restaurant-nouveau {
-  background-color: #99E2D0;
-  color: #39a98e;
+  background: red;
   position: absolute;
   top: 8px;
   right: 16px;
-  padding: 7px;
-  border-radius: 5px;
-  z-index: 2;
-}
-.card-restaurant-legende {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.card-restaurant-legende-text {
-  display: flex;
-  flex-direction: column;
-  margin-left: 1rem;
-}
-.card-restaurant-legende-text h4 {
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  margin-bottom: 0;
-}
-.card-restaurant-legende-text h5 {
-  margin-top: 0.2rem;
-  margin-bottom: 1rem;
-  font-weight: 300;
-  font-size: 1.1rem;
-}
-.card-restaurant-legende-heart {
-  align-self: center;
-  font-size: xx-large;
-  margin-right: 2rem;
-  margin-top: -0.7rem;
-}
-.card-restaurant-legende-heart:hover {
-  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */

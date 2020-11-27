@@ -235,31 +235,20 @@ header{
     &-legende{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         &-text{
             display: flex;
             flex-direction: column;
             margin-left: $size;
             h4{
-                font-size: $size + 0.2rem;
+                font-size: $size + 0.3rem;
                 margin-top: $size;
                 margin-bottom: 0;
             }
             h5{
                 margin-top: 0.2 * $size;
-                margin-bottom: $size;
                 font-weight: 300;
-                font-size: $size + 0.1rem;
+                font-size: $size;
             }
-        }
-        &-heart{
-            align-self: center;
-            font-size: xx-large;
-            margin-right: 2 * $size;
-            margin-top: - 0.7 * $size;
-            &:hover{
-                background-color: red;
-            }               
         }
     }
 }

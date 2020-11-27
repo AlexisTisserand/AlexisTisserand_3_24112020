@@ -254,12 +254,11 @@ header{
         }
         &-heart{
             align-self: center;
-            font-size: xx-large;
-            margin-right: 2 * $size;
-            margin-top: - 0.7 * $size;
-            &:hover{
-                background-color: red;
-            }               
+            .fas{
+                font-size: xx-large;
+                margin-right: 2 * $size
+                margin-top: -0.7 * $size 
+            }
         }
     }
 }
