@@ -276,17 +276,18 @@ header{
   }
   
   .loader {
-    max-width: 17*$size;
+    max-width: 20*$size;
     width: 100%;
     height: auto;
     stroke-linecap: round;
   }
   
   circle {
+    align-items: center;
     fill: none;
     stroke-width: 3.5;
     animation-name: preloader;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     transform-origin: 170px 170px;

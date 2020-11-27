@@ -222,9 +222,6 @@ header .logo img {
   box-sizing: border-box;
   transition: transform 200ms ease-in-out;
 }
-.card-restaurant:hover {
-  transform: scale(1.02);
-}
 .card-restaurant img {
   height: 200px;
   position: relative;
@@ -279,11 +276,11 @@ header .logo img {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: red;
+  background-color: green;
 }
 
 .loader {
-  max-width: 17rem;
+  max-width: 15rem;
   width: 100%;
   height: auto;
   stroke-linecap: round;
@@ -293,7 +290,7 @@ circle {
   fill: none;
   stroke-width: 3.5;
   animation-name: preloader;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   transform-origin: 170px 170px;
@@ -301,19 +298,15 @@ circle {
 }
 circle:nth-of-type(1) {
   stroke-dasharray: 550px;
-  stroke: #9356DC;
 }
 circle:nth-of-type(2) {
   stroke-dasharray: 500px;
-  stroke: #FF79DA;
 }
 circle:nth-of-type(3) {
   stroke-dasharray: 450px;
-  stroke: #99E2D0;
 }
 circle:nth-of-type(4) {
   stroke-dasharray: 300px;
-  stroke: #FF79DA;
 }
 circle:nth-of-type(1) {
   animation-delay: -0.15s;

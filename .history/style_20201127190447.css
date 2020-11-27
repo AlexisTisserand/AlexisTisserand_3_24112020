@@ -222,9 +222,6 @@ header .logo img {
   box-sizing: border-box;
   transition: transform 200ms ease-in-out;
 }
-.card-restaurant:hover {
-  transform: scale(1.02);
-}
 .card-restaurant img {
   height: 200px;
   position: relative;
@@ -246,92 +243,11 @@ header .logo img {
 .card-restaurant-legende {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 .card-restaurant-legende-text {
   display: flex;
   flex-direction: column;
-  margin-left: 1rem;
-}
-.card-restaurant-legende-text h4 {
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  margin-bottom: 0;
-}
-.card-restaurant-legende-text h5 {
-  margin-top: 0.2rem;
-  margin-bottom: 1rem;
-  font-weight: 300;
-  font-size: 1.1rem;
-}
-.card-restaurant-legende-heart {
-  align-self: center;
-  font-size: xx-large;
-  margin-right: 2rem;
-  margin-top: -0.7rem;
-}
-.card-restaurant-legende-heart:hover {
-  background-color: red;
-}
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  background-color: red;
-}
-
-.loader {
-  max-width: 17rem;
-  width: 100%;
-  height: auto;
-  stroke-linecap: round;
-}
-
-circle {
-  fill: none;
-  stroke-width: 3.5;
-  animation-name: preloader;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  transform-origin: 170px 170px;
-  will-change: transform;
-}
-circle:nth-of-type(1) {
-  stroke-dasharray: 550px;
-  stroke: #9356DC;
-}
-circle:nth-of-type(2) {
-  stroke-dasharray: 500px;
-  stroke: #FF79DA;
-}
-circle:nth-of-type(3) {
-  stroke-dasharray: 450px;
-  stroke: #99E2D0;
-}
-circle:nth-of-type(4) {
-  stroke-dasharray: 300px;
-  stroke: #FF79DA;
-}
-circle:nth-of-type(1) {
-  animation-delay: -0.15s;
-}
-circle:nth-of-type(2) {
-  animation-delay: -0.3s;
-}
-circle:nth-of-type(3) {
-  animation-delay: -0.45s;
-}
-circle:nth-of-type(4) {
-  animation-delay: -0.6s;
-}
-
-@keyframes preloader {
-  50% {
-    transform: rotate(360deg);
-  }
+  
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -276,7 +276,7 @@ header{
   }
   
   .loader {
-    max-width: 17*$size;
+    max-width: 10*$size;
     width: 100%;
     height: auto;
     stroke-linecap: round;
@@ -286,7 +286,7 @@ header{
     fill: none;
     stroke-width: 3.5;
     animation-name: preloader;
-    animation-duration: 4s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     transform-origin: 170px 170px;

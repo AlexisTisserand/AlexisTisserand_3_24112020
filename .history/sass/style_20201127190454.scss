@@ -214,9 +214,6 @@ header{
     margin: 15px;
     box-sizing: border-box;
     transition: transform 200ms ease-in-out;
-    &:hover{
-        transform: scale(1.02);
-    }
     img{
     height: 200px;
     position: relative;
@@ -276,7 +273,7 @@ header{
   }
   
   .loader {
-    max-width: 17*$size;
+    max-width: 15rem;
     width: 100%;
     height: auto;
     stroke-linecap: round;
@@ -286,7 +283,7 @@ header{
     fill: none;
     stroke-width: 3.5;
     animation-name: preloader;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     transform-origin: 170px 170px;
@@ -294,22 +291,18 @@ header{
   
     &:nth-of-type(1) {
       stroke-dasharray: 550px;
-      stroke: $primary;
     }
   
     &:nth-of-type(2) {
       stroke-dasharray: 500px;
-      stroke: $secondary;
     }
   
     &:nth-of-type(3) {
       stroke-dasharray: 450px;
-      stroke: $tertiary;
     }
   
     &:nth-of-type(4) {
       stroke-dasharray: 300px;
-      stroke: $secondary;
     }
   
     @for $i from 1 through 4 {
