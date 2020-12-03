@@ -449,12 +449,6 @@ header{
         margin-right: $size;
         padding: 0.3rem 1rem 0 0;
         width: 100%;
-        transition: width 2s, height 2s, background-color 2s, transform 4s;
-        &:hover{
-            background-color: white;
-            
-            transform: rotate(180deg);
-        }
         h4{
         @extend .margin-plats;
         font-size: $size + 0.1rem;
@@ -504,31 +498,57 @@ header{
     }
 }
 
+
 /*********************************************************/
 /*MEDIA QUERIES MENUS*/
 /*********************************************************/
 
 /*LARGE DEVICES*/
-@media screen and (min-width:660px){
-    .restaurant-menu--titre{
-        justify-content: space-between;
-    }
-    
-    .restaurant-menu--plats{
-        width: 30%;
-    }
+@media screen and (min-width: 1268px){
 
-}
-
+    #restaurants{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto auto auto ;
+        margin-bottom: 0px;
+    }   h2{
+        grid-column: 1/-1;
+    }
+}   
 
 /*MEDIUM DEVICES*/
 @media screen and (max-width: 1267px){
     
-    
+    .fonctionnement-nav{
+        justify-content: center;
+        &-etape{
+            width: 50%;
+        }
+    }
+
+    #restaurants{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto ;
+        h2{
+            grid-column: 1/-1;
+        }
+    }
 }
 
 /*SMALL DEVICES*/
 @media screen and (max-width: 660px){
-    
+    .fonctionnement-nav-etape{
+        width: 100%;
+    }
+
+    #restaurants{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto ;
+        h2{
+            grid-column: 1/-1;
+        }
+    }
 
 }

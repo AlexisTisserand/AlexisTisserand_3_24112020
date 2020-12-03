@@ -379,7 +379,7 @@ footer{
 }
 
 /*********************************************************/
-/*MENU*/
+/*MENU LA PALETTE DU GOÛT*/
 /*********************************************************/
 
 
@@ -425,11 +425,6 @@ header{
             margin-left: $size;
         }
     }
-    &-carte{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
     h3{
         font-weight: 300;
         font-size: $size + 0.1rem;
@@ -446,15 +441,6 @@ header{
         border-radius: 13px;
         margin-left: $size;
         margin-bottom: $size;
-        margin-right: $size;
-        padding: 0.3rem 1rem 0 0;
-        width: 100%;
-        transition: width 2s, height 2s, background-color 2s, transform 4s;
-        &:hover{
-            background-color: white;
-            
-            transform: rotate(180deg);
-        }
         h4{
         @extend .margin-plats;
         font-size: $size + 0.1rem;
@@ -466,19 +452,18 @@ header{
             justify-content: space-between;
             h5{  
                 font-weight: 400;
-                margin: 0.2rem 0 0.5rem 0.8rem;
+                margin: 0 0.5rem$size $size;
             }
             p{
                 font-weight: bold;
-                margin: 0 ;
+                margin: 0;
             }
         }
     }
     button{
         width: 200px;
-        align-self: center;
         font-size: $size + 0.1rem;
-        margin-top: 3 * $size;
+        margin-top: $size;
         font-weight: normal;
         color: white;
         background: linear-gradient($secondary, $primary);
@@ -487,7 +472,7 @@ header{
         box-shadow: 0px 0px 10px 1px #b6b3b3;
         border-radius: 40px;
         padding: 15px 20px;
-        margin-bottom: 4 * $size;
+        margin-bottom: $size + 2.5rem;
         transition: transform cubic-bezier(1,0,0,1) 500ms, background 500ms ;
         &:hover{
             background: lighten($color: $secondary, $amount: 5);
@@ -504,31 +489,3 @@ header{
     }
 }
 
-/*********************************************************/
-/*MEDIA QUERIES MENUS*/
-/*********************************************************/
-
-/*LARGE DEVICES*/
-@media screen and (min-width:660px){
-    .restaurant-menu--titre{
-        justify-content: space-between;
-    }
-    
-    .restaurant-menu--plats{
-        width: 30%;
-    }
-
-}
-
-
-/*MEDIUM DEVICES*/
-@media screen and (max-width: 1267px){
-    
-    
-}
-
-/*SMALL DEVICES*/
-@media screen and (max-width: 660px){
-    
-
-}

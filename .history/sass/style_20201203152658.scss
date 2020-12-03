@@ -451,7 +451,7 @@ header{
         width: 100%;
         transition: width 2s, height 2s, background-color 2s, transform 4s;
         &:hover{
-            background-color: white;
+            background-color: red;
             
             transform: rotate(180deg);
         }

@@ -449,11 +449,10 @@ header{
         margin-right: $size;
         padding: 0.3rem 1rem 0 0;
         width: 100%;
-        transition: width 2s, height 2s, background-color 2s, transform 4s;
+        transition: transform ease-in-out 200ms ;
         &:hover{
-            background-color: white;
-            
-            transform: rotate(180deg);
+            transform: scale(1.02);
+            rotate: 100;
         }
         h4{
         @extend .margin-plats;

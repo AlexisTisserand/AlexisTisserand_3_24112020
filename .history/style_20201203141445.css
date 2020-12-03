@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "robotoregular";
   src: url("Fonts/roboto/Roboto-Regular-webfont.eot");
@@ -387,7 +388,7 @@ footer a {
   }
 }
 /*********************************************************/
-/*MENU*/
+/*MENU LA PALETTE DU GOÛT*/
 /*********************************************************/
 header a {
   position: absolute;
@@ -428,11 +429,6 @@ header a {
   margin-right: 1.5rem;
   margin-left: 1rem;
 }
-.restaurant-menu-carte {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
 .restaurant-menu h3 {
   font-weight: 300;
   font-size: 1.1rem;
@@ -449,14 +445,6 @@ header a {
   border-radius: 13px;
   margin-left: 1rem;
   margin-bottom: 1rem;
-  margin-right: 1rem;
-  padding: 0.3rem 1rem 0 0;
-  width: 100%;
-  transition: width 2s, height 2s, background-color 2s, transform 4s;
-}
-.restaurant-menu--plats:hover {
-  background-color: white;
-  transform: rotate(180deg);
 }
 .restaurant-menu--plats h4 {
   font-size: 1.1rem;
@@ -469,17 +457,16 @@ header a {
 }
 .restaurant-menu--plats--accompagnements h5 {
   font-weight: 400;
-  margin: 0.2rem 0 0.5rem 0.8rem;
+  margin: 0.2rem 0 0.5rem 1rem;
 }
 .restaurant-menu--plats--accompagnements p {
   font-weight: bold;
-  margin: 0;
+  margin: 0.2rem 0 0rem 0.8rem;
 }
 .restaurant-menu button {
   width: 200px;
-  align-self: center;
   font-size: 1.1rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
   font-weight: normal;
   color: white;
   background: linear-gradient(#FF79DA, #9356DC);
@@ -488,7 +475,7 @@ header a {
   box-shadow: 0px 0px 10px 1px #b6b3b3;
   border-radius: 40px;
   padding: 15px 20px;
-  margin-bottom: 4rem;
+  margin-bottom: 3.5rem;
   transition: transform cubic-bezier(1, 0, 0, 1) 500ms, background 500ms;
 }
 .restaurant-menu button:hover {
@@ -503,21 +490,5 @@ header a {
 .restaurant-menu button:focus {
   outline: none;
 }
-
-/*********************************************************/
-/*MEDIA QUERIES MENUS*/
-/*********************************************************/
-/*LARGE DEVICES*/
-@media screen and (min-width: 660px) {
-  .restaurant-menu--titre {
-    justify-content: space-between;
-  }
-
-  .restaurant-menu--plats {
-    width: 30%;
-  }
-}
-/*MEDIUM DEVICES*/
-/*SMALL DEVICES*/
 
 /*# sourceMappingURL=style.css.map */

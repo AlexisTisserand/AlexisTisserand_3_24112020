@@ -449,10 +449,12 @@ header{
         margin-right: $size;
         padding: 0.3rem 1rem 0 0;
         width: 100%;
-        transition: width 2s, height 2s, background-color 2s, transform 4s;
+        transition: width 2s height 2s background-color 2s transform 4s;
+        cursor: pointer;
         &:hover{
-            background-color: white;
-            
+            background-color: red;
+            width: 200px;
+            height: 200px;
             transform: rotate(180deg);
         }
         h4{

@@ -379,7 +379,7 @@ footer{
 }
 
 /*********************************************************/
-/*MENU*/
+/*MENU LA PALETTE DU GOÛT*/
 /*********************************************************/
 
 
@@ -449,12 +449,6 @@ header{
         margin-right: $size;
         padding: 0.3rem 1rem 0 0;
         width: 100%;
-        transition: width 2s, height 2s, background-color 2s, transform 4s;
-        &:hover{
-            background-color: white;
-            
-            transform: rotate(180deg);
-        }
         h4{
         @extend .margin-plats;
         font-size: $size + 0.1rem;
@@ -504,31 +498,3 @@ header{
     }
 }
 
-/*********************************************************/
-/*MEDIA QUERIES MENUS*/
-/*********************************************************/
-
-/*LARGE DEVICES*/
-@media screen and (min-width:660px){
-    .restaurant-menu--titre{
-        justify-content: space-between;
-    }
-    
-    .restaurant-menu--plats{
-        width: 30%;
-    }
-
-}
-
-
-/*MEDIUM DEVICES*/
-@media screen and (max-width: 1267px){
-    
-    
-}
-
-/*SMALL DEVICES*/
-@media screen and (max-width: 660px){
-    
-
-}
