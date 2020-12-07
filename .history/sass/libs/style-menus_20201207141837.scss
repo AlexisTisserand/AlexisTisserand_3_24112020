@@ -1,0 +1,133 @@
+/*********************************************************/
+/*MENU*/
+/*********************************************************/
+
+header{
+    a{
+        position: absolute;
+        left: $size;
+        color: $color-text;
+        font-size: $size + 0.3rem;
+    }
+}
+
+.restaurant-img{
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+        margin-top: $size;
+        position: relative;
+        z-index: 0;
+    }
+}
+
+.restaurant-menu{
+    background-color: $color-background;
+    border-radius: 50px 50px 0 0;
+    margin-top: - 3rem;
+    position: relative;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    width: 100%;
+    &--titre{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: $size;
+        h2{
+            font-family: 'Shrikhand';
+            font-size: $size + 1rem;
+            margin-right: $size + 0.5rem;
+            margin-left: $size;
+        }
+    }
+    &-carte{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        animation: fadein 5s;
+    }
+    h3{
+        font-weight: 300;
+        font-size: $size + 0.1rem;
+        margin-left: $size;
+        border-bottom: $tertiary 3px solid;
+        width: 45px;
+        padding-bottom: 10px;
+    }
+    &--plats{
+        background-color: white;
+        box-shadow: 0px 0px 8px 1px $color-box-shadow;
+        color: $color-text;
+        border: none;
+        border-radius: 13px;
+        margin-left: $size;
+        margin-bottom: $size;
+        margin-right: $size;
+        padding: 0.3rem 1rem 0 0;
+        width: 100%;
+        transition: background-color 2s;
+        &:hover{
+            background-color: white;
+            cursor: pointer;
+        }
+        .fas{
+            font-size: xx-large;
+            position: absolute;
+            
+            transition: transform 2s;
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+        h4{
+        @extend .margin-plats;
+        font-size: $size + 0.1rem;
+        }
+        &--accompagnements{
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: space-between;
+            h5{  
+                font-weight: 400;
+                margin: 0.2rem 0 0.5rem 0.8rem;
+            }
+            p{
+                font-weight: bold;
+                margin: 0 ;
+            }
+        }
+    }
+    button{
+        width: 200px;
+        align-self: center;
+        font-size: $size + 0.1rem;
+        margin-top: 3 * $size;
+        font-weight: normal;
+        color: white;
+        background: linear-gradient($secondary, $primary);
+        position: relative;	
+        border: none;
+        box-shadow: 0px 0px 10px 1px #b6b3b3;
+        border-radius: 40px;
+        padding: 15px 20px;
+        margin-bottom: 4 * $size;
+        transition: transform ease-in-out 500ms, opacity ease-in-out 500ms, box-shadow ease-in-out 500ms ;
+        &:hover{
+            opacity: 0.7;
+            box-shadow: 0px 0px 7px 3px #484B4C;
+            transform: scale(1.1);
+            cursor: pointer;            
+        }
+        &:active{
+            border-style: none;
+        }
+        &:focus{
+            outline:none;
+        }
+    }
+}
