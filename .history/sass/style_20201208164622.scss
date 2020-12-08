@@ -447,7 +447,7 @@ header{
     }
     &--plats{
         display: grid;
-        grid-template-columns: 1fr 1.7fr 0.3fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 0px 0px;
         background-color: white;
@@ -460,11 +460,11 @@ header{
         cursor: pointer;
         &:hover .fas {
             transform: rotate(360deg);
-            transition: transform 1s;
+            transition: transform 2s;
         }
         &:hover &--checkbox{
             transform: scaleX(1);
-            transition: transform 1s;
+            transition: transform 2s;
         }
         &--name{
             grid-area: 1 / 1 / 2 / 3;

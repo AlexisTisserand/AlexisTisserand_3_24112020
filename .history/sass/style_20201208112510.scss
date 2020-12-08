@@ -446,49 +446,34 @@ header{
         padding-bottom: 10px;
     }
     &--plats{
-        display: grid;
-        grid-template-columns: 1fr 1.7fr 0.3fr;
-        grid-template-rows: repeat(2, 1fr);
-        gap: 0px 0px;
         background-color: white;
         box-shadow: 0px 0px 8px 1px $color-box-shadow;
         color: $color-text;
         border: none;
         border-radius: 13px;
         margin: 0 $size $size $size;
+        padding: 0.3rem 1rem 0 0;
         width: 100%;
         cursor: pointer;
-        &:hover .fas {
+        .progress-bar{
+            display: flex;
+            flex-direction: row;
+            border: black 2px solid;
+            background: $tertiary;
+            width: 100%;
+            height: 10px;
+        }
+        &:hover .fas{
             transform: rotate(360deg);
-            transition: transform 1s;
         }
-        &:hover &--checkbox{
-            transform: scaleX(1);
-            transition: transform 1s;
-        }
-        &--name{
-            grid-area: 1 / 1 / 2 / 3;
-        }
-        &--accompagnements{
-            grid-area: 2 / 1 / 3 / 3;
-        }
-        &--prix{
-            grid-area: 2 / 2 / 3 / 4;
-        }
-        &--checkbox{
-            background-color: $tertiary;
-            grid-area: 1 / 3 / 3 / 4;
-            border-radius: 0 13px 13px 0;
-            text-align: center;
-            transform: scaleX(0);
-            transition: transform 0s, border-radius 0s;
-            transform-origin: 100% 50%;
-            .fas{
-                font-size: xx-large;
-                margin: $size;
-                color: white;
-            }
-        }
+        .fas{
+            font-size: xx-large;
+            position: absolute;
+            transition: transform 2s;
+            color:$primary;
+            padding: $size;
+            right: 1;
+        } 
         h4{
         @extend .margin-plats;
         font-size: $size + 0.1rem;
@@ -502,13 +487,9 @@ header{
                 font-weight: 400;
                 margin: 0.2rem 0 0.5rem 0.8rem;
             }
-        }
-        &--prix{
             p{
                 font-weight: bold;
                 margin: 0 ;
-                text-align: end;
-                margin-right: $size;
             }
         }
     }
