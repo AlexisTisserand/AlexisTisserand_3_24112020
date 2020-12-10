@@ -683,9 +683,15 @@ header{
 
     .restaurant-img{
         img{
-            height: 400px;
+            object-fit: cover;
+            width: 100%;
+            height: 500px;
+            margin-top: $size;
+            position: relative;
+            z-index: 0;
         }
     }
+
 }
 
 /*MEDIUM DEVICES / TABLETTES*/
@@ -693,11 +699,8 @@ header{
     .restaurant-menu--plats{
         width: 100%;
     }
-    .restaurant-img{
-        img{
-            height: 300px;
-        }
-    }
+
+    
 }
 
 /*SMALL DEVICES : MOBILES*/

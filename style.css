@@ -617,7 +617,7 @@ header a:hover {
 .restaurant-menu--plats--accompagnements h5 {
   font-weight: 300;
   margin: 0rem 0 0.5rem 0.9rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 .restaurant-menu--plats--prix {
   grid-area: 2/2/3/4;
@@ -680,16 +680,29 @@ header a:hover {
 /*MEDIA QUERIES MENUS*/
 /*********************************************************/
 /*LARGE DEVICES*/
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 667px) {
   .restaurant-menu--titre {
     justify-content: space-between;
   }
 
   .restaurant-menu--plats {
-    width: 100%;
+    width: 30%;
+  }
+
+  .restaurant-img img {
+    height: 400px;
   }
 }
-/*MEDIUM DEVICES*/
-/*SMALL DEVICES*/
+/*MEDIUM DEVICES / TABLETTES*/
+@media screen and (max-width: 1024px) {
+  .restaurant-menu--plats {
+    width: 100%;
+  }
+
+  .restaurant-img img {
+    height: 300px;
+  }
+}
+/*SMALL DEVICES : MOBILES*/
 
 /*# sourceMappingURL=style.css.map */

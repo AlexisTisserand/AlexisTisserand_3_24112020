@@ -151,12 +151,15 @@ $size: 1rem;
 @keyframes apparition-site{
     0%{
         opacity: 0;
+        transform: translateY(100%);
     }
     80%{
         opacity: 0;
+        transform: translateY(100%);
     }
     100%{
         opacity: 1;
+        transform: translateY(0%);
     }
 }
 
@@ -177,6 +180,7 @@ a{
     max-width: 2000px;
     min-width: 100px;
     animation: apparition-site 5s ease-in-out;    
+    overflow: hidden;
 }
 
 #bloc-page{
@@ -602,7 +606,7 @@ header{
             h5{  
                 font-weight: 300;
                 margin: 0rem 0 0.5rem 0.9rem;
-                font-size: 0.9rem;
+                font-size: 1rem;
             }
         }
         &--prix{
@@ -672,36 +676,25 @@ header{
 /*********************************************************/
 
 /*LARGE DEVICES*/
-@media screen and (min-width: 667px){
+@media screen and (min-width:660px){
     .restaurant-menu--titre{
         justify-content: space-between;
     }
     
     .restaurant-menu--plats{
-        width: 30%;
-    }
-
-    .restaurant-img{
-        img{
-            height: 400px;
-        }
-    }
-}
-
-/*MEDIUM DEVICES / TABLETTES*/
-@media screen and (max-width: 1024px){
-    .restaurant-menu--plats{
         width: 100%;
     }
-    .restaurant-img{
-        img{
-            height: 300px;
-        }
-    }
+
 }
 
-/*SMALL DEVICES : MOBILES*/
-@media screen and (max-width: 667px){
+/*MEDIUM DEVICES*/
+@media screen and (max-width: 1267px){
+    
+    
+}
+
+/*SMALL DEVICES*/
+@media screen and (max-width: 660px){
     
 
 }

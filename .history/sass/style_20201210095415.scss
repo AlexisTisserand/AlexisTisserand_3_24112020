@@ -678,14 +678,9 @@ header{
     }
     
     .restaurant-menu--plats{
-        width: 30%;
+        width: 25%;
     }
 
-    .restaurant-img{
-        img{
-            height: 400px;
-        }
-    }
 }
 
 /*MEDIUM DEVICES / TABLETTES*/
@@ -693,11 +688,8 @@ header{
     .restaurant-menu--plats{
         width: 100%;
     }
-    .restaurant-img{
-        img{
-            height: 300px;
-        }
-    }
+
+    
 }
 
 /*SMALL DEVICES : MOBILES*/

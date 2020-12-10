@@ -678,26 +678,15 @@ header{
     }
     
     .restaurant-menu--plats{
-        width: 30%;
+        width: 100%;
     }
 
-    .restaurant-img{
-        img{
-            height: 400px;
-        }
-    }
 }
 
 /*MEDIUM DEVICES / TABLETTES*/
 @media screen and (max-width: 1024px){
-    .restaurant-menu--plats{
-        width: 100%;
-    }
-    .restaurant-img{
-        img{
-            height: 300px;
-        }
-    }
+    
+    
 }
 
 /*SMALL DEVICES : MOBILES*/
