@@ -16,7 +16,7 @@
 }   
 
 /*MEDIUM DEVICES*/
-@media screen and (max-width: 1267px){
+@media screen and (max-width: 1024px){
     
     .fonctionnement-nav{
         justify-content: center;
@@ -35,8 +35,9 @@
     }
 }
 
+
 /*SMALL DEVICES*/
-@media screen and (max-width: 660px){
+@media screen and (max-width: 768px){
     .fonctionnement-nav-etape{
         width: 100%;
     }
