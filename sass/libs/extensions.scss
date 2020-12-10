@@ -1,0 +1,30 @@
+/*Extensions*/  
+
+.box-shadow{
+    box-shadow: 0px 0px 8px 1px $color-box-shadow;
+    color: $color-text;
+    border: none;
+    border-radius: 25px;
+    width: 350px;
+    background-color: $color-background;
+}
+
+.margin-plats{
+    margin: 0.5rem 0 0rem 0.9rem;
+}
+
+.cercle{
+    background-color: $primary;
+    color: white;
+    padding: 8px;
+    border-radius: 50px;
+    margin-right: 25px;
+    margin-left: -15px;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    align-content: center;
+    font-size: $size;
+    line-height: 15px;
+    font-weight: light;
+}
