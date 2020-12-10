@@ -39,7 +39,7 @@
   background-color: #f6f6f6;
 }
 
-.margin-plats, .restaurant-menu--plats h4 {
+.margin-plats, .restaurant-menu--plats--name h4 {
   margin: 0.5rem 0 0rem 0.9rem;
 }
 
@@ -76,8 +76,8 @@
 .loader {
   width: 50px;
   height: 50px;
-  top: 50%;
-  left: 50%;
+  top: 45%;
+  left: 45%;
   display: inline-block;
   position: absolute;
   animation: loading 3s;
@@ -253,7 +253,7 @@ a {
   margin: auto;
   max-width: 2000px;
   min-width: 100px;
-  animation: apparition-site 5s ease-in-out;
+  animation: apparition-site 5.5s ease-in-out;
 }
 
 #bloc-page {
@@ -619,6 +619,9 @@ header a:hover {
 .restaurant-menu--plats:hover .fas {
   transform: rotate(360deg);
 }
+.restaurant-menu--plats:hover .restaurant-menu--plats--name {
+  margin-right: 10%;
+}
 .restaurant-menu--plats:hover .restaurant-menu--plats--checkbox {
   transform: translateX(0%);
 }
@@ -630,6 +633,13 @@ header a:hover {
 }
 .restaurant-menu--plats--name {
   grid-area: 1/1/2/3;
+  transition: margin-right 0.5s;
+}
+.restaurant-menu--plats--name h4 {
+  font-size: 1.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .restaurant-menu--plats--accompagnements {
   grid-area: 2/1/3/3;
@@ -667,9 +677,6 @@ header a:hover {
   margin: 1rem;
   color: white;
   transition: transform 1s;
-}
-.restaurant-menu--plats h4 {
-  font-size: 1.1rem;
 }
 .restaurant-menu button {
   width: 200px;
