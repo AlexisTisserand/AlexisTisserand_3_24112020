@@ -16,7 +16,7 @@ a{
     margin: auto;
     max-width: 2000px;
     min-width: 100px;
-    animation: apparition-site 5.5s ease-in-out;    
+    animation: apparition-site 5.2s ease-in-out;    
 }
 
 #bloc-page{
@@ -84,7 +84,7 @@ header{
         font-size: $size + 0.2rem ;
         font-weight: 300;
         margin-top: 0;
-        padding: $size - 0.5rem, $size + 1rem ;
+        padding: $size - 0.5rem $size + 1rem ;
     }
     button{
         font-size: $size + 0.1rem;
@@ -247,7 +247,6 @@ header{
                 background: linear-gradient(to bottom, $primary 0%, $secondary 100%);
                 -webkit-background-clip: text;
                 -moz-background-clip: text;
-                background-clip: text;
                 -webkit-text-fill-color: transparent;
                 transition: font-weight ease-in-out 2s ;
                 }

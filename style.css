@@ -56,11 +56,10 @@
   align-content: center;
   font-size: 1rem;
   line-height: 15px;
-  font-weight: light;
 }
 
 /*Loading spinner*/
-.section {
+.loading {
   background: linear-gradient(#9356DC, #FF79DA);
   opacity: 1;
   position: fixed;
@@ -253,7 +252,7 @@ a {
   margin: auto;
   max-width: 2000px;
   min-width: 100px;
-  animation: apparition-site 5.5s ease-in-out;
+  animation: apparition-site 5.2s ease-in-out;
 }
 
 #bloc-page {
@@ -321,7 +320,7 @@ header .logo img {
   font-size: 1.2rem;
   font-weight: 300;
   margin-top: 0;
-  padding: 0.5rem, 2rem;
+  padding: 0.5rem 2rem;
 }
 #description-ohmyfood button {
   font-size: 1.1rem;
@@ -479,7 +478,6 @@ header .logo img {
   background: linear-gradient(to bottom, #9356DC 0%, #FF79DA 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
-  background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: font-weight ease-in-out 2s;
 }
