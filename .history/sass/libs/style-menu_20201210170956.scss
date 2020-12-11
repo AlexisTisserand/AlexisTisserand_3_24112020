@@ -1,0 +1,184 @@
+body{
+    background-color: white;
+    font-family: $font-family;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#bloc-page{
+    width: 100%;
+    margin: auto;
+    max-width: 2000px;
+    min-width: 100px;
+}
+
+/*********************************************************/
+/*MENU*/
+/*********************************************************/
+
+header{
+    a{
+        position: absolute;
+        left: $size;
+        color: $color-text;
+        font-size: $size + 0.3rem;
+        transition: opacity 0.5s;
+        
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+}
+
+.restaurant-img{
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+        margin-top: $size;
+        position: relative;
+        z-index: 0;
+    }
+}
+
+.restaurant-menu{
+    background-color: $color-background;
+    border-radius: 50px 50px 0 0;
+    margin-top: - 3rem;
+    position: relative;
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    width: 100%;
+    &--titre{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: $size;
+        h2{
+            font-family: 'Shrikhand';
+            font-size: $size + 1rem;
+            margin-right: $size + 0.5rem;
+            margin-left: $size;
+        }
+    }
+    &-carte{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    h3{
+        font-weight: 300;
+        font-size: $size + 0.1rem;
+        margin-left: $size;
+        border-bottom: $tertiary 3px solid;
+        width: 45px;
+        padding-bottom: 10px;
+    }
+    &--plats{
+        display: grid;
+        grid-template-columns: 2.3fr 0.3fr 0.3fr;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0px 0px;
+        background-color: white;
+        box-shadow: 0px 0px 8px 1px $color-box-shadow;
+        color: $color-text;
+        border: none;
+        border-radius: 13px;
+        margin: 0 $size $size $size;
+        width: 100%;
+        cursor: pointer;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        &:hover .fas {
+            transform: rotate(360deg);
+        }
+        &:hover &--checkbox{
+            transform: translateX(0%);
+        }
+        &:hover &--prix{
+            margin-right: 50%;
+        }
+        &:hover &--accompagnements{
+            margin-right: 20%;
+        }
+        &--name{
+            grid-area: 1 / 1 / 2 / 3;
+        }
+        &--accompagnements{
+            grid-area: 2 / 1 / 3 / 3;            
+            h5{  
+                font-weight: 300;
+                margin: 0rem 0 0.5rem 0.9rem;
+                font-size: 0.9rem;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+        &--prix{
+            grid-area: 2 / 2 / 3 / 4;
+            transition: margin-right 1s;
+            p{
+                font-weight: bold;
+                margin: 0 ;
+                text-align: end;
+                margin-right: $size;
+                
+            }
+        }
+        &--checkbox{
+            background-color: $tertiary;
+            grid-area: 1 / 3 / 3 / 4;
+            border-radius: 0 13px 13px 0;
+            text-align: center;
+            transform: translateX(100%);
+            transform-origin: 100% 50%;
+            transition: transform 1s;
+            
+            .fas{
+                font-size: xx-large;
+                margin: $size;
+                color: white;
+                transition: transform 1s;
+            }
+        }
+        h4{
+        @extend .margin-plats;
+        font-size: $size + 0.1rem;
+        }
+    }
+    button{
+        width: 200px;
+        align-self: center;
+        font-size: $size + 0.1rem;
+        margin-top: 3 * $size;
+        font-weight: normal;
+        color: white;
+        background: linear-gradient($secondary, $primary);
+        position: relative;	
+        border: none;
+        box-shadow: 0px 0px 10px 1px #b6b3b3;
+        border-radius: 40px;
+        padding: 15px 20px;
+        margin-bottom: 4 * $size;
+        transition: transform ease-in-out 500ms, opacity ease-in-out 500ms, box-shadow ease-in-out 500ms ;
+        &:hover{
+            opacity: 0.7;
+            box-shadow: 0px 0px 7px 3px #484B4C;
+            transform: scale(1.1);
+            cursor: pointer;            
+        }
+        &:active{
+            border-style: none;
+        }
+        &:focus{
+            outline:none;
+        }
+    }
+}

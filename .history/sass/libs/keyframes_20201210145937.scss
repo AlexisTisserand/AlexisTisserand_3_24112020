@@ -1,0 +1,56 @@
+
+/*KEYFRAMES*/
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);;
+    }
+}
+
+@keyframes fadein{
+    from{
+        opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes menu-incoming{
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes loading{
+    0%{
+        opacity: 1;
+        margin-left:0;
+    }
+    100%{
+        opacity: 0;
+        margin-top: -1000px;
+        transition: ease-in-out 3s;
+    }
+}
+
+@keyframes apparition-site{
+    0%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

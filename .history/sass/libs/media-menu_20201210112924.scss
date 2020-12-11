@@ -1,0 +1,43 @@
+
+/*********************************************************/
+/*MEDIA QUERIES MENUS*/
+/*********************************************************/
+
+/*LARGE DEVICES*/
+@media screen and (min-width: 667px){
+    .restaurant-menu--titre{
+        justify-content: space-between;
+    }
+    
+    .restaurant-menu--plats{
+        width: 30%;
+    }
+
+    .restaurant-img{
+        img{
+            height: 400px;
+        }
+    }
+}
+
+/*MEDIUM DEVICES / TABLETTES*/
+@media screen and (max-width: 1024px){
+    .restaurant-menu--plats{
+        width: 100%;
+    }
+    .restaurant-img{
+        img{
+            height: 300px;
+        }
+    }
+}
+
+/*SMALL DEVICES : MOBILES*/
+@media screen and (max-width: 667px){
+    .restaurant-menu{
+        &--plats{
+        &:hover &--prix{
+            margin-right: 50%;
+        }
+    }
+}]
