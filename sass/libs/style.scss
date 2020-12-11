@@ -266,7 +266,7 @@ footer{
     padding: $size + 0.5rem;
     background-color: $color-text;
     color: white;
-    
+    animation: apparition-site 5.2s ease-in-out;
     h2{
         font-family: 'Shrikhand';
         font-weight: normal;
