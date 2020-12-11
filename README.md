@@ -1,18 +1,20 @@
 # ohmyfood
-Troisième projet du parcours "Développeur web" chez OpenClassroom.
-L'objectif est d'intégrer la maquette d'un site de réservation de menus de restaurants gastronomiques intitulé "Ohmyfood" (voir l'image ci-dessous).
-Consigne particulière : dynamiser la page web avec des animations CSS.
+Troisième projet du parcours "Développeur web" chez OpenClassrooms. </br>
+L'objectif est d'intégrer la maquette d'un site de réservation de menus de restaurants gastronomiques intitulé "Ohmyfood" (voir l'image ci-dessous) puis de la dynamiser avec des animations CSS en utilisant le préprocesseur Sass.</br>
+
+Vous trouverez le [brief complet ici](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/DW_P3/Brief%20cre%CC%81atif%20-%20Ohmyfood!.pdf).
 
 ![maquette web ohmyfood](./images/Accueil.png)
 
-## Éléments fournis par l'entreprise virtuelle.
-- La maquette pour les résolutions ordinateur et téléphone nous est donné.
-- Toutes les images présentes sur le site sont aussi livrées en format sm, md, l & xl.
-- Les icones proviennent de [Font Awesome](https://fontawesome.com/)
-- Les couleurs sont : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
-- La police est ["Raleway"](https://fonts.google.com/specimen/Raleway)
+## Objectifs.
+1. Développer un site proposant le menu (pour l'instant) de 4 restaurants gastronomiques parisiens.
+2. Permettre de choisir son menu et de réserver directement en ligne.
 
-## Cahier des charges
+## Livrables
+► [Repository GitHub](https://github.com/AlexisTisserand/AlexisTisserand_3_24112020)
+► [Lien Github Page](https://alexistisserand.github.io/AlexisTisserand_3_24112020/)
+
+### Contenu des pages
 - L'integration doit se faire en HTML5 & CSS3, sans framework (bootstrap par exemple)
 - Dans le menu, les liens “Hébergements” et “Activités” sont des ancres qui doivent mener aux sections de la page.
 - Le champ de recherche doit être un champ de saisie, dont le texte peut être édité. La fonctionnalité de recherche ne doit pas être implémenté pour autant.
