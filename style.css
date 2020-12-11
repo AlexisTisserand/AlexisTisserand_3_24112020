@@ -493,6 +493,7 @@ footer {
   padding: 1.5rem;
   background-color: #353535;
   color: white;
+  animation: apparition-site 5.2s ease-in-out;
 }
 footer h2 {
   font-family: "Shrikhand";
