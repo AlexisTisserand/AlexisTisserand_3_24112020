@@ -3,7 +3,7 @@ Troisième projet du parcours "Développeur web" chez OpenClassroom.
 L'objectif est d'intégrer la maquette d'un site de réservation de menus de restaurants gastronomiques intitulé "Ohmyfood" (voir l'image ci-dessous).
 Consigne particulière : dynamiser la page web avec des animations CSS.
 
-![maquette web ohmyfood](./elements-fournis/Accueil.png)
+![maquette web ohmyfood](./images/Accueil.png)
 
 ## Éléments fournis par l'entreprise virtuelle.
 - La maquette pour les résolutions ordinateur et téléphone nous est donné.
