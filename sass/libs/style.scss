@@ -258,10 +258,9 @@ header{
     }
 }
 
-
 /*FOOTER*/
 
 #footer-accueil{
     @extend .footer;
-    animation: apparition-site 2.8s ease-in-out;
+    
 }
