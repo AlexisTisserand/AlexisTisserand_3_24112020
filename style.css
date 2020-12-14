@@ -610,7 +610,6 @@ header a:hover {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
 }
 .restaurant-menu h3 {
   font-weight: 300;
