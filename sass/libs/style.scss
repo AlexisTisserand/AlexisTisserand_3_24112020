@@ -262,42 +262,7 @@ header{
 
 /*FOOTER*/
 
-<<<<<<< HEAD
-footer{
-    padding: $size + 0.5rem;
-    background-color: $color-text;
-    color: white;
-    animation: apparition-site 5.2s ease-in-out;
-    h2{
-        font-family: 'Shrikhand';
-        font-weight: normal;
-        font-size: $size + 0.3rem;
-        margin-top: 0;
-    }
-    h3{
-        margin: 0;
-        font-weight: 400;
-        margin-bottom: 0.5 * $size;
-        font-size: initial;
-    }
-    .footer-img-text{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        .fas{
-            margin-right: $size;
-            &.fa-hands-helping{
-                margin-right: 0.58* $size;
-            }
-        }
-    }
-    a{
-        color: white;
-    }
-}
-=======
 #footer-accueil{
    @extend .footer;
    animation: apparition-site 2.8s ease-in-out;
 }
->>>>>>> mise-en-place-css
