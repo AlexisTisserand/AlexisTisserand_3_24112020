@@ -2,26 +2,27 @@
 /*MEDIA QUERIES ACCUEIL*/
 /*********************************************************/
 
-/*LARGE DEVICES*/
-@media screen and (min-width: 1268px){
+/*XLARGE DEVICES*/
+@media screen{
 
     #restaurants{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto auto auto ;
         margin-bottom: 0px;
-    }   h2{
+        h2{
         grid-column: 1/-1;
+        }
     }
 }   
 
-/*MEDIUM DEVICES*/
-@media screen and (max-width: 1024px){
+/*LARGE DEVICES*/
+@media screen and (max-width: 1268px){
     
     .fonctionnement-nav{
         justify-content: center;
         &-etape{
-            width: 100%;
+            width: 300px;
         }
     }
 
@@ -35,13 +36,57 @@
     }
 }
 
+/*MEDIUM DEVICES*/
+@media screen and (max-width: 1117px){
+    
+    .fonctionnement-nav{
+        &-etape{
+            width: 300px;
+            margin: 15px 15px;
+        }
+    }
+
+    #restaurants{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto ;
+        h2{
+            grid-column: 1/-1;
+        }
+    }
+}
+
+/*SMALL DEVICES*/
+@media screen and (max-width: 1030px){
+    .fonctionnement-nav{
+        &-etape{
+            width: 80%;
+        }
+    }
+
+    #restaurants{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto auto ;
+        h2{
+            grid-column: 1/-1;
+        }
+    }
+}
 
 /*SMALL DEVICES*/
 @media screen and (max-width: 768px){
-    .fonctionnement-nav-etape{
-        width: 100%;
-    }
 
+    #fonctionnement{
+        h2{
+            text-align: left;
+        }
+    }
+    .fonctionnement-nav{
+        &-etape{
+            width: 100%;
+        }
+    }
     #restaurants{
         display: grid;
         grid-template-columns: 1fr;

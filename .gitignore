@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 /.history
 /elements-fournis
 /dart-sass
 
+=======
+.history/
+elements-fournis/
+dart-sass/
+>>>>>>> mise-en-place-css

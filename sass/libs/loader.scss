@@ -8,7 +8,7 @@
     top:0px;
     left:0px;
     z-index:1000;
-    animation: loading 2s ease-in-out 3s both;
+    animation: loading 2s ease-in-out 1s both;
 
 }
 
@@ -20,7 +20,7 @@
     left: 45%;
     display: inline-block;
     position: absolute;
-    animation: loading 3s;
+    animation: loading 1s;
     &-circles{
         border-radius: 50px;
         border: 3px solid transparent;
