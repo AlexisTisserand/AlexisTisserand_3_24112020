@@ -1,9 +1,9 @@
 /*Fonctions*/
 
-@for $i from 0 through 9 {
-    .restaurant-menu--plats.delay-#{$i} {
+@for $i from 0 through 12 {
+    .delay-#{$i} {
         animation: menu-incoming 3s;
-        animation-delay: #{$i/10}s;
+        animation-delay: #{$i/13}s;
         animation-fill-mode: both;
     }
 }

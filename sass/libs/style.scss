@@ -16,7 +16,7 @@ a{
     margin: auto;
     max-width: 2000px;
     min-width: 100px;
-    animation: apparition-site 5.2s ease-in-out;    
+    animation: apparition-site 2.8s ease-in-out;    
 }
 
 #bloc-page{
@@ -79,6 +79,7 @@ header{
         padding: $size;
         margin-bottom: 0;
         margin-top: $size + 0.5rem;
+        
     }
     h3{
         font-size: $size + 0.2rem ;
@@ -98,13 +99,11 @@ header{
         border-radius: 40px;
         padding: 15px 20px;
         margin-bottom: $size + 2.5rem;
-        transition: transform ease-in-out 500ms, opacity ease-in-out 500ms, box-shadow ease-in-out 500ms ;
+        transition: opacity ease-in-out 500ms, box-shadow ease-in-out 500ms ;
         &:hover{
-            opacity: 0.7;
-            box-shadow: 0px 0px 7px 3px #484B4C;
-            transform: scale(1.1);
-            cursor: pointer;
-                    
+            opacity: 0.8;
+            box-shadow: 0px 0px 10px 3px #2e2f30;
+            cursor: pointer;        
         }
         &:active{
             border-style: none;
@@ -119,11 +118,11 @@ header{
 
 #fonctionnement{
     display: flex;
-    align-items: center;
     flex-direction: column;
     background-color: white;
     h2{
-        margin: 3*$size $size $size;
+        margin: 3*$size $size $size + 0.5rem;
+        text-align: center;
     }
     ul{
         padding: 10px;
@@ -260,37 +259,10 @@ header{
     }
 }
 
+
 /*FOOTER*/
 
-.footer-accueil{
-    padding: $size + 0.5rem;
-    background-color: $color-text;
-    color: white;
-    animation: apparition-site 5.2s ease-in-out;
-    h2{
-        font-family: 'Shrikhand';
-        font-weight: normal;
-        font-size: $size + 0.3rem;
-        margin-top: 0;
-    }
-    h3{
-        margin: 0;
-        font-weight: 400;
-        margin-bottom: 0.5 * $size;
-        font-size: initial;
-    }
-    .footer-img-text{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        .fas{
-            margin-right: $size;
-            &.fa-hands-helping{
-                margin-right: 0.58* $size;
-            }
-        }
-    }
-    a{
-        color: white;
-    }
+#footer-accueil{
+   @extend .footer;
+   animation: apparition-site 2.8s ease-in-out;
 }
