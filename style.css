@@ -58,6 +58,38 @@
   line-height: 15px;
 }
 
+.footer, .footer-menu {
+  padding: 1.5rem;
+  background-color: #353535;
+  color: white;
+}
+.footer h2, .footer-menu h2 {
+  font-family: "Shrikhand";
+  font-weight: normal;
+  font-size: 1.3rem;
+  margin-top: 0;
+}
+.footer h3, .footer-menu h3 {
+  margin: 0;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  font-size: initial;
+}
+.footer .footer-img-text, .footer-menu .footer-img-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer .footer-img-text .fas, .footer-menu .footer-img-text .fas {
+  margin-right: 1rem;
+}
+.footer .footer-img-text .fas.fa-hands-helping, .footer-menu .footer-img-text .fas.fa-hands-helping {
+  margin-right: 0.58rem;
+}
+.footer a, .footer-menu a {
+  color: white;
+}
+
 /*Loading spinner*/
 .loading {
   background: linear-gradient(#9356DC, #FF79DA);
@@ -489,35 +521,36 @@ header .logo img {
 }
 
 /*FOOTER*/
-footer {
+.footer-accueil {
   padding: 1.5rem;
   background-color: #353535;
   color: white;
+  animation: apparition-site 5.2s ease-in-out;
 }
-footer h2 {
+.footer-accueil h2 {
   font-family: "Shrikhand";
   font-weight: normal;
   font-size: 1.3rem;
   margin-top: 0;
 }
-footer h3 {
+.footer-accueil h3 {
   margin: 0;
   font-weight: 400;
   margin-bottom: 0.5rem;
   font-size: initial;
 }
-footer .footer-img-text {
+.footer-accueil .footer-img-text {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-footer .footer-img-text .fas {
+.footer-accueil .footer-img-text .fas {
   margin-right: 1rem;
 }
-footer .footer-img-text .fas.fa-hands-helping {
+.footer-accueil .footer-img-text .fas.fa-hands-helping {
   margin-right: 0.58rem;
 }
-footer a {
+.footer-accueil a {
   color: white;
 }
 
@@ -554,10 +587,9 @@ header a:hover {
 }
 
 .restaurant-img img {
-  max-width: 100%;
-  max-height: 32rem;
-  width: 100%;
   object-fit: cover;
+  width: 100%;
+  height: 300px;
   margin-top: 1rem;
   position: relative;
   z-index: 0;
@@ -642,7 +674,7 @@ header a:hover {
 }
 .restaurant-menu--plats--accompagnements {
   grid-area: 2/1/3/3;
-  transition: margin-right 0.8s;
+  transition: margin-right 0.5s;
 }
 .restaurant-menu--plats--accompagnements h5 {
   font-weight: 300;
@@ -654,7 +686,7 @@ header a:hover {
 }
 .restaurant-menu--plats--prix {
   grid-area: 2/2/3/4;
-  transition: margin-right 0.8s;
+  transition: margin-right 1s;
 }
 .restaurant-menu--plats--prix p {
   font-weight: bold;
@@ -669,13 +701,13 @@ header a:hover {
   text-align: center;
   transform: translateX(100%);
   transform-origin: 100% 50%;
-  transition: transform 0.8s;
+  transition: transform 1s;
 }
 .restaurant-menu--plats--checkbox .fas {
   font-size: xx-large;
   margin: 1rem;
   color: white;
-  transition: transform 0.8s;
+  transition: transform 1s;
 }
 .restaurant-menu button {
   width: 200px;
@@ -710,7 +742,7 @@ header a:hover {
 /*MEDIA QUERIES ACCUEIL*/
 /*********************************************************/
 /*LARGE DEVICES*/
-@media screen and (min-width: 1268px) {
+@media screen {
   #restaurants {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
