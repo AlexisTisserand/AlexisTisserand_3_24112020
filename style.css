@@ -31,7 +31,7 @@
 }
 /*Extensions*/
 .box-shadow, .fonctionnement-nav-etape {
-  box-shadow: 0px 3px 7px 1px #e5e5e5;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
   color: #353535;
   border: none;
   border-radius: 25px;
@@ -93,25 +93,18 @@
 /*Loading spinner*/
 .loading {
   background: linear-gradient(#9356DC, #FF79DA);
-  opacity: 1;
+  opacity: 0.7;
   position: fixed;
   width: 100%;
   height: 100%;
   top: 0px;
   left: 0px;
   z-index: 1000;
-  animation: loading 2s ease-in-out 1s both;
+  animation: loading 0.5s ease-in-out 2.5s both;
 }
 .loading h2 {
   font-family: "Shrikhand";
-  width: 50px;
-  height: 50px;
-  top: 45%;
-  left: 50%;
-  display: inline-block;
-  position: absolute;
-  color: white;
-  font-weight: 100;
+  text-align: end;
 }
 
 /*Loading cercle*/
@@ -276,7 +269,7 @@
 }
 @keyframes loading {
   0% {
-    opacity: 1;
+    opacity: 0.7;
     margin-left: 0;
   }
   100% {
@@ -313,7 +306,6 @@ a {
   margin: auto;
   max-width: 2000px;
   min-width: 100px;
-  animation: apparition-site 2.8s ease-in-out;
 }
 
 #bloc-page {
@@ -391,15 +383,15 @@ header .logo img {
   background: linear-gradient(#FF79DA, #9356DC);
   position: relative;
   border: none;
-  box-shadow: 0px 0px 10px 1px #b6b3b3;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
   border-radius: 40px;
   padding: 15px 20px;
   margin-bottom: 3.5rem;
-  transition: opacity ease-in-out 500ms, box-shadow ease-in-out 500ms;
+  transition: opacity ease-in-out 300ms, box-shadow ease-in-out 300ms;
 }
 #description-ohmyfood button:hover {
   opacity: 0.8;
-  box-shadow: 0px 0px 10px 3px #2e2f30;
+  box-shadow: 0.25rem 0.15rem 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 #description-ohmyfood button:active {
@@ -475,7 +467,7 @@ header .logo img {
   flex-direction: column;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 0px 0px 8px 1px #e5e5e5;
+  box-shadow: 0px 0px 5px 2px #e5e5e5;
   margin: 15px;
   box-sizing: border-box;
   transition: ease-in-out 200ms;
@@ -718,7 +710,7 @@ header a:hover {
   background: linear-gradient(#FF79DA, #9356DC);
   position: relative;
   border: none;
-  box-shadow: 0px 0px 10px 1px #b6b3b3;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.125);
   border-radius: 40px;
   padding: 15px 20px;
   margin-bottom: 4rem;
@@ -726,7 +718,7 @@ header a:hover {
 }
 .restaurant-menu button:hover {
   opacity: 0.7;
-  box-shadow: 0px 0px 7px 3px #171818;
+  box-shadow: 0.25rem 0.15rem 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 .restaurant-menu button:active {

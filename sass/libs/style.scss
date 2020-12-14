@@ -15,8 +15,7 @@ a{
     width: 100%;
     margin: auto;
     max-width: 2000px;
-    min-width: 100px;
-    animation: apparition-site 2.8s ease-in-out;    
+    min-width: 100px;    
 }
 
 #bloc-page{
@@ -95,14 +94,14 @@ header{
         background: linear-gradient($secondary, $primary);
         position: relative;	
         border: none;
-        box-shadow: 0px 0px 10px 1px #b6b3b3;
+        box-shadow: 0.25rem 0.25rem 0.5rem rgba(0,0,0,.125);
         border-radius: 40px;
         padding: 15px 20px;
         margin-bottom: $size + 2.5rem;
-        transition: opacity ease-in-out 500ms, box-shadow ease-in-out 500ms ;
+        transition: opacity ease-in-out 300ms, box-shadow ease-in-out 300ms ;
         &:hover{
             opacity: 0.8;
-            box-shadow: 0px 0px 10px 3px #2e2f30;
+            box-shadow: 0.25rem 0.15rem 10px rgba(0, 0, 0, 0.5);
             cursor: pointer;        
         }
         &:active{
@@ -186,7 +185,7 @@ header{
     flex-direction: column;
     background-color: white;
     border-radius: 20px;
-    box-shadow: 0px 0px 8px 1px $color-box-shadow;
+    box-shadow: 0px 0px 5px 2px $color-box-shadow;
     margin: 15px;
     box-sizing: border-box;
     transition: ease-in-out 200ms;
@@ -263,6 +262,6 @@ header{
 /*FOOTER*/
 
 #footer-accueil{
-   @extend .footer;
-   animation: apparition-site 2.8s ease-in-out;
+    @extend .footer;
+    animation: apparition-site 2.8s ease-in-out;
 }
