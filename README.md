@@ -1,10 +1,9 @@
 # ohmyfood
 Troisième projet du parcours "Développeur web" chez OpenClassrooms. </br>
-L'objectif est d'intégrer la maquette d'un site de réservation de menus de restaurants gastronomiques intitulé "Ohmyfood" (voir l'image ci-dessous) puis de la dynamiser avec des animations CSS en utilisant le préprocesseur Sass.</br>
+L'objectif est d'intégrer la maquette d'un site de réservation de menus de restaurants gastronomiques intitulé "Ohmyfood" puis de la dynamiser avec des animations CSS en utilisant le préprocesseur Sass.</br>
 
 Vous trouverez le [brief complet ici](https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/DW_P3/Brief%20cre%CC%81atif%20-%20Ohmyfood!.pdf).
 
-![maquette web ohmyfood](./images/Accueil.png)
 
 ## Enjeux du projet.
 Phase 1. Développer un site proposant le menu (pour l'instant) de 4 restaurants gastronomiques parisiens.</br>
