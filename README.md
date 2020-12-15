@@ -22,6 +22,11 @@ Phase 2. Permettre de choisir son menu et de réserver directement en ligne.
 
 ## Contenu des pages
 
+**Header**
+- Header présent sur toutes les pages.
+- Accueil : logo du site.
+- Menus : logo du site + bouton de retour vers la page d'acceuil.
+
 **Page d'acceuil (x1)** 
 - Affichage de la localisation des restaurants.
 - Présentation de l'entreprise.
@@ -33,11 +38,6 @@ Phase 2. Permettre de choisir son menu et de réserver directement en ligne.
 **Footer**
 - Footer identique sur toutes les pages.
 - Au clic sur "Contact", un renvoi vers une adresse mail est effectué.
-
-**Header**
-- Header présent sur toutes les pages.
-- Accueil : logo du site.
-- Menus : logo du site + bouton de retour vers la page d'acceuil.
 
 ## Effets graphiques et animations ##
 
