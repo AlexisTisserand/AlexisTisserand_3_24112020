@@ -31,7 +31,7 @@ Phase 2. Permettre de choisir son menu et de réserver directement en ligne.
 - Affichage de la localisation des restaurants.
 - Présentation de l'entreprise.
 - Section contenant les 4 menus sous formes cartes. Au clic sur la carte l'utilisateur est redirigé vers la page du menu.
-.
+
 **Page de menu (x4)**
 - 4 pages contenant chacune le menu d'un restaurant.
 
