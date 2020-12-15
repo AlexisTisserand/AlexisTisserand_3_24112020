@@ -5,6 +5,10 @@
 /*XLARGE DEVICES*/
 @media screen{
 
+    .fonctionnement-nav{
+        justify-content: center;
+    }
+
     #restaurants{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -20,7 +24,6 @@
 @media screen and (max-width: 1268px){
     
     .fonctionnement-nav{
-        justify-content: center;
         &-etape{
             width: 300px;
         }

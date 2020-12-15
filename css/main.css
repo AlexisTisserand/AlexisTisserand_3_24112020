@@ -726,6 +726,10 @@ header a:hover {
 /*********************************************************/
 /*XLARGE DEVICES*/
 @media screen {
+  .fonctionnement-nav {
+    justify-content: center;
+  }
+
   #restaurants {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -738,9 +742,6 @@ header a:hover {
 }
 /*LARGE DEVICES*/
 @media screen and (max-width: 1268px) {
-  .fonctionnement-nav {
-    justify-content: center;
-  }
   .fonctionnement-nav-etape {
     width: 300px;
   }
