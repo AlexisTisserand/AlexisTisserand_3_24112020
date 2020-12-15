@@ -21,7 +21,7 @@ Phase 2. Permettre de choisir son menu et de réserver directement en ligne.
 - Section contenant les 4 menus sous formes cartes. Au clic sur la carte l'utilisateur est redirigé vers la page du menu
 
 **Page de menu (x4)**
-4 pages contenant chacune le menu d'un restaurant
+- 4 pages contenant chacune le menu d'un restaurant
 
 **Footer**
 - Footer identique sur toutes les pages
