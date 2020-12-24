@@ -2,7 +2,7 @@
 
 @for $i from 0 through 12 {
     .delay-#{$i} {
-        animation: menu-incoming 3s;
+        animation: menu-incoming 0.8s;
         animation-delay: #{$i/13}s;
         animation-fill-mode: both;
     }

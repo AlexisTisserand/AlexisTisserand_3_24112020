@@ -124,79 +124,79 @@
 
 /*Fonctions*/
 .delay-0 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0s;
   animation-fill-mode: both;
 }
 
 .delay-1 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0.0769230769s;
   animation-fill-mode: both;
 }
 
 .delay-2 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0.1538461538s;
   animation-fill-mode: both;
 }
 
 .delay-3 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0.2307692308s;
   animation-fill-mode: both;
 }
 
 .delay-4 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0.3076923077s;
   animation-fill-mode: both;
 }
 
 .delay-5 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0.3846153846s;
   animation-fill-mode: both;
 }
 
 .delay-6 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0.4615384615s;
   animation-fill-mode: both;
 }
 
 .delay-7 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0.5384615385s;
   animation-fill-mode: both;
 }
 
 .delay-8 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0.6153846154s;
   animation-fill-mode: both;
 }
 
 .delay-9 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0.6923076923s;
   animation-fill-mode: both;
 }
 
 .delay-10 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0.7692307692s;
   animation-fill-mode: both;
 }
 
 .delay-11 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0.8461538462s;
   animation-fill-mode: both;
 }
 
 .delay-12 {
-  animation: menu-incoming 3s;
+  animation: menu-incoming 0.8s;
   animation-delay: 0.9230769231s;
   animation-fill-mode: both;
 }
